@@ -10,3 +10,9 @@ dependencies = [
     "pandas>=2.2.3",
     "pydantic>=2.10.6",
 ]
+
+[tool.setuptools.packages.find]
+exclude = ["data"]
+
+[project.scripts]
+generate_fusion_xpd = "fusion_utils.generate_fusion_xpd:main"
