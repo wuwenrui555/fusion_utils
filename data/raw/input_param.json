@@ -11,12 +11,22 @@
   ],
   "blank_exposures": {
     "H3": {
+      "DAPI": 10,
       "ATTO550": 150,
-      "CY5": 150
+      "CY5": 150,
+      "AF750": 1
     },
     "H4": {
+      "DAPI": 10,
       "ATTO550": 150,
-      "CY5": 150
+      "CY5": 150,
+      "AF750": 1
     }
+  },
+  "default_exposures": {
+    "DAPI": 10,
+    "ATTO550": 150,
+    "CY5": 150,
+    "AF750": 1
   }
 }

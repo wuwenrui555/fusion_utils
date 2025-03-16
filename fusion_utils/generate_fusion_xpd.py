@@ -246,8 +246,14 @@ class InputParameter(BaseModel):
     channel_2: str = "CY5"
     blank_wells: list[str] = ["H1", "H2"]
     blank_exposures: dict[str, dict[str, int]] = {
-        "H1": {"ATTO550": 150, "CY5": 150},
-        "H2": {"ATTO550": 150, "CY5": 150},
+        "H1": {"DAPI": 10, "ATTO550": 150, "CY5": 150, "AF750": 1},
+        "H2": {"DAPI": 10, "ATTO550": 150, "CY5": 150, "AF750": 1},
+    }
+    default_exposures: dict[str, int] = {
+        "DAPI": 10,
+        "ATTO550": 150,
+        "CY5": 150,
+        "AF750": 1,
     }
 
 
@@ -266,7 +272,13 @@ def generate_fusion_xpd(param_f=Union[str, Path]) -> None:
     )
 
     # Initialize the base info
-    base_info = BaseInfo(name=input_param.project_name)
+    base_info = BaseInfo(
+        name=input_param.project_name,
+        channels=[
+            {"name": channel, "defaultExposure": input_param.default_exposures[channel]}
+            for channel in ["DAPI", "ATTO550", "CY5", "AF750"]
+        ],
+    )
 
     # Add wells for blank DAPI
     for well_name in input_param.blank_wells:
