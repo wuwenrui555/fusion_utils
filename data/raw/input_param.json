@@ -1,32 +1,8 @@
 {
+  "xpd_f": "data/raw/test_final.xpd",
   "excel_f": "data/raw/codex_marker.xlsx",
-  "output_f": "data/output/titration-rerun-150ms-C1.xpd",
-  "project_name": "titration-rerun-150ms-C1",
+  "output_f": "data/output/test_final.xpd",
   "start_well": "C1",
   "channel_1": "ATTO550",
-  "channel_2": "CY5",
-  "blank_wells": [
-    "H3",
-    "H4"
-  ],
-  "blank_exposures": {
-    "H3": {
-      "DAPI": 10,
-      "ATTO550": 150,
-      "CY5": 150,
-      "AF750": 1
-    },
-    "H4": {
-      "DAPI": 10,
-      "ATTO550": 150,
-      "CY5": 150,
-      "AF750": 1
-    }
-  },
-  "default_exposures": {
-    "DAPI": 10,
-    "ATTO550": 150,
-    "CY5": 150,
-    "AF750": 1
-  }
+  "channel_2": "CY5"
 }

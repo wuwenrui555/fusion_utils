@@ -1,8 +1,8 @@
 {
   "formatVersion": "2",
   "formatType": "Protein",
-  "name": "titration-rerun-150ms-C1",
-  "tissueType": "HumanFFPE",
+  "name": "test_final",
+  "tissueType": "HumanFF",
   "tissueInfo": "",
   "resolution": 0.5,
   "channels": [
@@ -28,7 +28,7 @@
       "wellName": "H3",
       "items": [
         {
-          "id": "7d90c9c0-704d-4c91-93e5-e992e407db4f",
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
           "inventoryItemType": "Marker",
           "markerName": "DAPI",
           "barcode": "None",
@@ -40,7 +40,7 @@
           "panel": "None"
         },
         {
-          "id": "7d90c9c0-704d-4c91-93e5-e992e407db4f",
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
           "inventoryItemType": "Marker",
           "markerName": "--",
           "barcode": "None",
@@ -52,7 +52,7 @@
           "panel": "None"
         },
         {
-          "id": "7d90c9c0-704d-4c91-93e5-e992e407db4f",
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
           "inventoryItemType": "Marker",
           "markerName": "--",
           "barcode": "None",
@@ -64,7 +64,7 @@
           "panel": "None"
         },
         {
-          "id": "7d90c9c0-704d-4c91-93e5-e992e407db4f",
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
           "inventoryItemType": "Marker",
           "markerName": "--",
           "barcode": "None",
@@ -93,7 +93,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "4a15d297-8516-4fb3-b3fb-61c9055a163c",
+          "id": "f639237a-1768-4feb-a6d4-18d53e381c9e",
           "inventoryItemType": "Marker",
           "markerName": "PAX5",
           "barcode": "28",
@@ -105,7 +105,7 @@
           "panel": "None"
         },
         {
-          "id": "dec7ea23-a61f-4696-ab02-aa6372b2c50c",
+          "id": "bfff4cf7-11f5-44d6-805c-bfe9c43cc0e9",
           "inventoryItemType": "Marker",
           "markerName": "CD45RO",
           "barcode": "Darci",
@@ -146,7 +146,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "6dd1c5e6-2c77-4279-9f19-0056536ca90b",
+          "id": "213d953d-8472-4914-8308-f910061ca9c2",
           "inventoryItemType": "Marker",
           "markerName": "CD8",
           "barcode": "CST156",
@@ -158,12 +158,12 @@
           "panel": "None"
         },
         {
-          "id": "7af4e75a-ed03-4509-a779-accb05612f39",
+          "id": "7390f82b-167f-4ae7-96ee-4f4b69f30c89",
           "inventoryItemType": "Marker",
           "markerName": "CD39",
           "barcode": "454",
           "reporter": "3",
-          "clone": "EPR26473-58",
+          "clone": "EPR2647358",
           "channel": "CY5",
           "dye": "CY5",
           "exposure": 150,
@@ -199,7 +199,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "9a9a1daa-b88d-4d05-8c96-65b7c30e4a24",
+          "id": "ef092547-01a7-4dda-a7d5-e87691525150",
           "inventoryItemType": "Marker",
           "markerName": "Tim-3",
           "barcode": "CST12",
@@ -211,7 +211,7 @@
           "panel": "None"
         },
         {
-          "id": "0b9451c4-0e44-4c16-aa38-3b373d0667b9",
+          "id": "ec16a5d5-9bc3-4087-b0ef-fa17c19de5f7",
           "inventoryItemType": "Marker",
           "markerName": "CD15",
           "barcode": "CST8",
@@ -252,7 +252,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "827373af-4220-46b3-b8f5-563d59c26ed3",
+          "id": "e8b5a42d-7189-4eb1-ad2e-f6304120c2e8",
           "inventoryItemType": "Marker",
           "markerName": "PD-1",
           "barcode": "CST178",
@@ -264,7 +264,7 @@
           "panel": "None"
         },
         {
-          "id": "9578cf2d-3c4d-4145-8356-c08860f6dac8",
+          "id": "1f9f7583-5e7e-4714-81f1-1c6c74443bd8",
           "inventoryItemType": "Marker",
           "markerName": "MPO",
           "barcode": "Ivan",
@@ -305,7 +305,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "f3e054d3-2330-49e2-b5ed-fc391a164b80",
+          "id": "d6ef519c-afb8-4bdd-baaf-dfe79d2ecc24",
           "inventoryItemType": "Marker",
           "markerName": "CD16",
           "barcode": "CST17",
@@ -317,7 +317,7 @@
           "panel": "None"
         },
         {
-          "id": "f8aa2003-ecf7-45ce-8561-29929369fe43",
+          "id": "3e512637-26f7-4501-88a4-83d540870962",
           "inventoryItemType": "Marker",
           "markerName": "CD4",
           "barcode": "375",
@@ -358,7 +358,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "77e2aff2-79c1-4c03-9f95-2bcc6679eb2e",
+          "id": "65d65675-54b4-46b3-ab72-a5912900ab79",
           "inventoryItemType": "Marker",
           "markerName": "CD11b",
           "barcode": "499",
@@ -370,7 +370,7 @@
           "panel": "None"
         },
         {
-          "id": "c30c18af-6959-4bba-b6d4-413b52eb033c",
+          "id": "12420445-a951-4073-bdfa-fbaad5839505",
           "inventoryItemType": "Marker",
           "markerName": "CD56",
           "barcode": "CST23",
@@ -411,19 +411,19 @@
           "panel": "Inventoried"
         },
         {
-          "id": "0518e1ce-2705-4a36-9998-1b8984edba41",
+          "id": "7f140377-9c3b-49d3-80a7-e17bb5a56376",
           "inventoryItemType": "Marker",
           "markerName": "CD57",
           "barcode": "489",
           "reporter": "52",
-          "clone": "HNK-1",
+          "clone": "HNK1",
           "channel": "ATTO550",
           "dye": "ATTO550",
           "exposure": 150,
           "panel": "None"
         },
         {
-          "id": "6a5f20ac-2f2a-42af-80b5-f75dcdfb9122",
+          "id": "09ce72b3-ad83-457f-9420-f0591571faf5",
           "inventoryItemType": "Marker",
           "markerName": "LAG-3",
           "barcode": "CST201",
@@ -464,7 +464,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "b80c396e-b29c-4731-b9f4-abe97acf3862",
+          "id": "cd858f79-bbed-434f-b181-aa9396e69418",
           "inventoryItemType": "Marker",
           "markerName": "TCF1/7",
           "barcode": "A40",
@@ -476,7 +476,7 @@
           "panel": "None"
         },
         {
-          "id": "b0410120-fd00-4b99-8174-c35fb7ebfc30",
+          "id": "a7cc8f26-2a51-4bc4-b5e9-d89cc2ca9b4e",
           "inventoryItemType": "Marker",
           "markerName": "CD206",
           "barcode": "CST177",
@@ -517,19 +517,19 @@
           "panel": "Inventoried"
         },
         {
-          "id": "cfdbcf7c-14e4-4634-b730-68d51ab4e7c2",
+          "id": "cc80dbe0-396a-4b90-b5e3-8bc6798c565d",
           "inventoryItemType": "Marker",
           "markerName": "CD163",
           "barcode": "381",
           "reporter": "45",
-          "clone": "EDHu-1",
+          "clone": "EDHu1",
           "channel": "ATTO550",
           "dye": "ATTO550",
           "exposure": 150,
           "panel": "None"
         },
         {
-          "id": "7b67a7d9-d946-4485-a32a-a8806e87855c",
+          "id": "c6f9021e-c1dc-4180-add0-6a640221cc13",
           "inventoryItemType": "Marker",
           "markerName": "CD11c",
           "barcode": "452",
@@ -570,19 +570,19 @@
           "panel": "Inventoried"
         },
         {
-          "id": "302f8bf4-7e6d-4f5f-828f-345abd1b32dd",
+          "id": "67ef8439-ed1c-4f39-8b18-5e028255467c",
           "inventoryItemType": "Marker",
           "markerName": "CD45",
           "barcode": "396",
           "reporter": "56",
-          "clone": "2B11 + PD7/26",
+          "clone": "2B11PD726",
           "channel": "ATTO550",
           "dye": "ATTO550",
           "exposure": 150,
           "panel": "None"
         },
         {
-          "id": "e73a748c-8811-4a98-a23a-9b36f2228889",
+          "id": "9376cf50-436e-4cc6-925b-0292db130e8d",
           "inventoryItemType": "Marker",
           "markerName": "IFNG",
           "barcode": "153",
@@ -623,19 +623,19 @@
           "panel": "Inventoried"
         },
         {
-          "id": "6a2dabcd-c8d9-4574-8b65-a0be2a9c6713",
+          "id": "39a924a5-c0d1-43e3-986f-ac1f7519d9b1",
           "inventoryItemType": "Marker",
           "markerName": "FOXP3",
           "barcode": "403",
           "reporter": "61",
-          "clone": "236A/E7",
+          "clone": "236AE7",
           "channel": "ATTO550",
           "dye": "ATTO550",
           "exposure": 200,
           "panel": "None"
         },
         {
-          "id": "922f623b-9d58-4906-b884-86865b22bfc7",
+          "id": "f360195a-9e76-4f4f-af4f-613f7f1169eb",
           "inventoryItemType": "Marker",
           "markerName": "CD69",
           "barcode": "314",
@@ -676,7 +676,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "b3f6c535-4387-42e4-ad86-a0250175c722",
+          "id": "66911c31-6e1e-47ba-9ab5-f17e1aff4878",
           "inventoryItemType": "Marker",
           "markerName": "BCL-6",
           "barcode": "22",
@@ -688,7 +688,7 @@
           "panel": "None"
         },
         {
-          "id": "65f5131c-49e6-4dee-835d-c8f52b9b01df",
+          "id": "d1de6559-12d2-4366-ac62-029872fcc6a1",
           "inventoryItemType": "Marker",
           "markerName": "Tox1/2",
           "barcode": "455",
@@ -729,7 +729,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "08441f33-fdc5-4fb0-a746-d7d26b583c90",
+          "id": "978c3423-d227-47de-bca5-31927bf20a5d",
           "inventoryItemType": "Marker",
           "markerName": "HLA-DR",
           "barcode": "Darci",
@@ -741,12 +741,12 @@
           "panel": "None"
         },
         {
-          "id": "b74e4076-e4e9-469c-9412-88d0c024378d",
+          "id": "50ea7950-4b38-4f1c-afc4-2364f2ea4f5a",
           "inventoryItemType": "Marker",
           "markerName": "CK19",
           "barcode": "116",
           "reporter": "5",
-          "clone": "A53-B/A2",
+          "clone": "A53BA2",
           "channel": "CY5",
           "dye": "CY5",
           "exposure": 150,
@@ -782,7 +782,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "16f71434-6801-488b-8af9-3fd92f5b1791",
+          "id": "06bf0ec1-0e5f-41c2-9d64-8866d3f662a5",
           "inventoryItemType": "Marker",
           "markerName": "CD68",
           "barcode": "CST44",
@@ -794,9 +794,9 @@
           "panel": "None"
         },
         {
-          "id": "44671db4-0814-4fa7-ad77-11f03217ff5a",
+          "id": "e9ec7815-de5e-46aa-94b6-1d2389e96bb6",
           "inventoryItemType": "Marker",
-          "markerName": "CD209_DC-SIGN",
+          "markerName": "CD209-DC-SIGN",
           "barcode": "498",
           "reporter": "67",
           "clone": "DCN46",
@@ -835,19 +835,19 @@
           "panel": "Inventoried"
         },
         {
-          "id": "f279cf70-989b-419f-bb9c-519c4ee15d26",
+          "id": "1ee64154-3672-4a8b-987b-9f1a7a3513e3",
           "inventoryItemType": "Marker",
           "markerName": "CD138",
           "barcode": "Ivan",
           "reporter": "76",
-          "clone": "B-A38",
+          "clone": "BA38",
           "channel": "ATTO550",
           "dye": "ATTO550",
           "exposure": 150,
           "panel": "None"
         },
         {
-          "id": "585adf78-fb4c-4aa7-be4a-2871980b8914",
+          "id": "8520b756-b5e2-4ced-9a12-78f9fc2bc0a1",
           "inventoryItemType": "Marker",
           "markerName": "TCRb",
           "barcode": "352",
@@ -888,7 +888,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "d9b78b99-70a4-414c-8514-fd01c58be09e",
+          "id": "da36d723-94cc-4a33-8450-2aa8e958f01d",
           "inventoryItemType": "Marker",
           "markerName": "CD3e",
           "barcode": "CST154",
@@ -900,7 +900,7 @@
           "panel": "None"
         },
         {
-          "id": "d817cdd6-a936-471c-99d1-33d151db831b",
+          "id": "80e9ce52-a56b-4758-9bb3-4ded188bf4ae",
           "inventoryItemType": "Marker",
           "markerName": "CD45RA",
           "barcode": "329",
@@ -941,21 +941,21 @@
           "panel": "Inventoried"
         },
         {
-          "id": "8182324e-b5e6-4e16-ab80-612d41ddde9b",
+          "id": "a69973e2-7a22-44b7-817f-d24737217cc6",
           "inventoryItemType": "Marker",
           "markerName": "HLA1",
           "barcode": "399",
           "reporter": "15",
-          "clone": "EMR8-5",
+          "clone": "EMR85",
           "channel": "ATTO550",
           "dye": "ATTO550",
           "exposure": 150,
           "panel": "None"
         },
         {
-          "id": "855c2e68-b139-4786-b47c-954cd1966a62",
+          "id": "f2fedb92-9f12-43e3-a662-78dc955adeb0",
           "inventoryItemType": "Marker",
-          "markerName": "CD278_ICOS",
+          "markerName": "CD278-ICOS",
           "barcode": "CST45",
           "reporter": "74",
           "clone": "D1K2T",
@@ -994,7 +994,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "cb243346-d12c-481b-8661-0f782cd7f688",
+          "id": "8c7a7645-fd24-4e2b-b675-9b05038e9582",
           "inventoryItemType": "Marker",
           "markerName": "ATP5A",
           "barcode": "467",
@@ -1006,7 +1006,7 @@
           "panel": "None"
         },
         {
-          "id": "844f49b7-14e4-4561-89b3-94623b69f076",
+          "id": "0c83209f-6c57-47b4-874b-f2aed4a25538",
           "inventoryItemType": "Marker",
           "markerName": "GLUT1",
           "barcode": "33",
@@ -1047,7 +1047,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "d147be4d-3ebd-49fa-9888-215a3c12ec62",
+          "id": "0b9b1c3d-8375-4a07-91ec-7d9c5a354d7b",
           "inventoryItemType": "Marker",
           "markerName": "NaKATP",
           "barcode": "CST16",
@@ -1059,12 +1059,12 @@
           "panel": "None"
         },
         {
-          "id": "91ca2f02-f4e7-4317-a020-0a3399b6afbd",
+          "id": "00a39530-c108-41fa-a5b9-2222e5286d39",
           "inventoryItemType": "Marker",
           "markerName": "VDAC1",
           "barcode": "449",
           "reporter": "46",
-          "clone": "EPR10852(B)",
+          "clone": "EPR10852B",
           "channel": "CY5",
           "dye": "CY5",
           "exposure": 150,
@@ -1100,19 +1100,19 @@
           "panel": "Inventoried"
         },
         {
-          "id": "d24085db-1223-4416-829d-47a497511a61",
+          "id": "f96c431b-331c-42ca-98a8-fd1a44f0579b",
           "inventoryItemType": "Marker",
           "markerName": "CD31",
           "barcode": "415",
           "reporter": "68",
-          "clone": "C31.3 + C31.7 + C31.10",
+          "clone": "C313C317C3110",
           "channel": "ATTO550",
           "dye": "ATTO550",
           "exposure": 150,
           "panel": "None"
         },
         {
-          "id": "c3b56906-9be8-41f2-8f6c-3f1d97999514",
+          "id": "435b8ce9-a952-492a-84a0-3aa19891ff48",
           "inventoryItemType": "Marker",
           "markerName": "GranzymeB",
           "barcode": "CST200",
@@ -1153,7 +1153,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "0671027b-6685-4604-b978-4ac36de96765",
+          "id": "4fc477e0-260b-40a4-9852-025b488966fb",
           "inventoryItemType": "Marker",
           "markerName": "aSMA",
           "barcode": "Twinfection",
@@ -1165,12 +1165,12 @@
           "panel": "None"
         },
         {
-          "id": "9a239031-49f3-4a1c-a6e5-982e63a65fa0",
+          "id": "4d73cad9-404f-47ca-a2ea-223d290c4a98",
           "inventoryItemType": "Marker",
           "markerName": "Podoplanin",
           "barcode": "413",
           "reporter": "32",
-          "clone": "D2-40",
+          "clone": "D240",
           "channel": "CY5",
           "dye": "CY5",
           "exposure": 150,
@@ -1206,7 +1206,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "87592283-e620-4683-a7be-4561797944f5",
+          "id": "5ac117ee-f776-46ac-a4ac-0a620fc03bdf",
           "inventoryItemType": "Marker",
           "markerName": "AFP",
           "barcode": "234",
@@ -1218,9 +1218,9 @@
           "panel": "None"
         },
         {
-          "id": "3da38117-5787-46d8-a9c6-3552c6cfa99a",
+          "id": "890d7623-d574-4f61-8341-a0fc7b6c37b0",
           "inventoryItemType": "Marker",
-          "markerName": "collagen_IV",
+          "markerName": "collagen-IV",
           "barcode": "Darci",
           "reporter": "33",
           "clone": "EPR20668",
@@ -1259,7 +1259,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "c88db167-5723-4b04-9acf-2b36a0695ac3",
+          "id": "e69e206e-0968-4f55-bc8d-12fc4e53de10",
           "inventoryItemType": "Marker",
           "markerName": "B-catenin",
           "barcode": "287",
@@ -1271,7 +1271,7 @@
           "panel": "None"
         },
         {
-          "id": "c1eae3b2-651a-4344-a089-bcffa4154437",
+          "id": "b9e3f597-827e-4ef5-b396-2a6e75b0b701",
           "inventoryItemType": "Marker",
           "markerName": "Vimentin",
           "barcode": "CST36",
@@ -1312,7 +1312,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "0659ac1c-ea84-486c-9da4-9a2f605fee98",
+          "id": "6c5ab122-a42d-439b-ba5a-e784d69088be",
           "inventoryItemType": "Marker",
           "markerName": "Ki-67",
           "barcode": "CST4",
@@ -1324,7 +1324,7 @@
           "panel": "None"
         },
         {
-          "id": "6bbe69cd-52e0-4960-8257-9ea1220400a5",
+          "id": "fe5e577d-0eb2-47e4-85c1-ee10fbc92fd1",
           "inventoryItemType": "Marker",
           "markerName": "HepAg",
           "barcode": "446",
@@ -1365,7 +1365,7 @@
           "panel": "Inventoried"
         },
         {
-          "id": "189461c9-644e-47da-9c54-9e1a66eadaec",
+          "id": "8582529e-8cb9-41ca-9acb-5982cf722a18",
           "inventoryItemType": "Marker",
           "markerName": "HBsAg",
           "barcode": "115",
@@ -1377,7 +1377,7 @@
           "panel": "None"
         },
         {
-          "id": "cbe67a47-0ea4-42c3-8522-8513c569a436",
+          "id": "0624cfda-89c6-4ce0-b6da-b3b6f453d939",
           "inventoryItemType": "Marker",
           "markerName": "CK18",
           "barcode": "461",
@@ -1418,19 +1418,19 @@
           "panel": "Inventoried"
         },
         {
-          "id": "b37db4c2-832a-43b1-88c9-ac2d5ab21e64",
+          "id": "b4bf36e7-4857-45ec-a347-79bcfbd985a1",
           "inventoryItemType": "Marker",
           "markerName": "Cytokeratin",
-          "barcode": "462+463",
+          "barcode": "462463",
           "reporter": "80",
-          "clone": "C-11+AE1/AE3",
+          "clone": "C11AE1AE3",
           "channel": "ATTO550",
           "dye": "ATTO550",
           "exposure": 150,
           "panel": "None"
         },
         {
-          "id": "98f4aacb-7896-43d6-bc33-ed988b468145",
+          "id": "3d3617bb-2424-42bd-9837-a03e6f14bdea",
           "inventoryItemType": "Marker",
           "markerName": "PD-L1",
           "barcode": "383",
@@ -1471,11 +1471,11 @@
           "panel": "Inventoried"
         },
         {
-          "id": "d91b2cf6-a1b0-493b-96bc-3940aae4ee1e",
+          "id": "365eb79d-5537-447b-a941-caf6eada2e05",
           "inventoryItemType": "Marker",
-          "markerName": "HBV RNA/DNA-150ms",
+          "markerName": "HBV-RNA/DNA-150ms",
           "barcode": "None",
-          "reporter": "YW-4",
+          "reporter": "YW4",
           "clone": "None",
           "channel": "ATTO550",
           "dye": "ATTO550",
@@ -1483,11 +1483,11 @@
           "panel": "None"
         },
         {
-          "id": "5e155a96-347a-43a7-9018-78cd2909fcd1",
+          "id": "cda36320-fdfe-47b9-92ab-683f98aba80b",
           "inventoryItemType": "Marker",
-          "markerName": "HBV -DNA-150ms",
+          "markerName": "HBV--DNA-150ms",
           "barcode": "None",
-          "reporter": "YW-1",
+          "reporter": "YW1",
           "clone": "None",
           "channel": "CY5",
           "dye": "CY5",
@@ -1512,7 +1512,7 @@
       "wellName": "H4",
       "items": [
         {
-          "id": "7d90c9c0-704d-4c91-93e5-e992e407db4f",
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
           "inventoryItemType": "Marker",
           "markerName": "DAPI",
           "barcode": "None",
@@ -1524,7 +1524,7 @@
           "panel": "None"
         },
         {
-          "id": "7d90c9c0-704d-4c91-93e5-e992e407db4f",
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
           "inventoryItemType": "Marker",
           "markerName": "--",
           "barcode": "None",
@@ -1536,7 +1536,7 @@
           "panel": "None"
         },
         {
-          "id": "7d90c9c0-704d-4c91-93e5-e992e407db4f",
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
           "inventoryItemType": "Marker",
           "markerName": "--",
           "barcode": "None",
@@ -1548,7 +1548,7 @@
           "panel": "None"
         },
         {
-          "id": "7d90c9c0-704d-4c91-93e5-e992e407db4f",
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
           "inventoryItemType": "Marker",
           "markerName": "--",
           "barcode": "None",

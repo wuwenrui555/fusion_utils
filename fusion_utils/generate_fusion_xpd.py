@@ -11,6 +11,7 @@ python generate_fusion_xpd.py --param data/raw/input_param.json
 import argparse
 import itertools
 import json
+import re
 import uuid
 from pathlib import Path
 from typing import OrderedDict, Union
@@ -136,6 +137,18 @@ class MarkerItem(BaseModel):
     exposure: int = None  # msec
     panel: str = "None"
 
+    def __init__(self, **data):
+        super().__init__(**data)
+        self.rename_invalid_name()
+
+    def rename_invalid_name(self) -> None:
+        valid_pattern = r"[^A-Za-z0-9.-/]"
+        for attr in ["markerName"]:
+            setattr(self, attr, re.sub(valid_pattern, "-", getattr(self, attr)))
+        valid_pattern = r"[^A-Za-z0-9]"
+        for attr in ["barcode", "reporter", "clone"]:
+            setattr(self, attr, re.sub(valid_pattern, "", getattr(self, attr)))
+
 
 class WellItem(BaseModel):
     wellName: str
@@ -238,23 +251,12 @@ class BaseInfo(BaseModel):
 
 
 class InputParameter(BaseModel):
+    xpd_f: Union[str, Path]
     excel_f: Union[str, Path]
     output_f: Union[str, Path]
-    project_name: str
     start_well: str = "A1"
     channel_1: str = "ATTO550"
     channel_2: str = "CY5"
-    blank_wells: list[str] = ["H1", "H2"]
-    blank_exposures: dict[str, dict[str, int]] = {
-        "H1": {"DAPI": 10, "ATTO550": 150, "CY5": 150, "AF750": 1},
-        "H2": {"DAPI": 10, "ATTO550": 150, "CY5": 150, "AF750": 1},
-    }
-    default_exposures: dict[str, int] = {
-        "DAPI": 10,
-        "ATTO550": 150,
-        "CY5": 150,
-        "AF750": 1,
-    }
 
 
 def generate_fusion_xpd(param_f=Union[str, Path]) -> None:
@@ -272,21 +274,9 @@ def generate_fusion_xpd(param_f=Union[str, Path]) -> None:
     )
 
     # Initialize the base info
-    base_info = BaseInfo(
-        name=input_param.project_name,
-        channels=[
-            {"name": channel, "defaultExposure": input_param.default_exposures[channel]}
-            for channel in ["DAPI", "ATTO550", "CY5", "AF750"]
-        ],
-    )
-
-    # Add wells for blank DAPI
-    for well_name in input_param.blank_wells:
-        base_info.add_well_blank(
-            well_name=well_name,
-            uuid=marker_panel.blank_uuid,
-            blank_exposure=input_param.blank_exposures[well_name],
-        )
+    with open(input_param.xpd_f, "r") as f:
+        base_info = BaseInfo.model_validate(json.load(f))
+    blank_wells = [well_item.wellName for well_item in base_info.wells]
 
     # Add wells for default markers
     for _, well_name in marker_panel.well_name_dict.items():
@@ -309,9 +299,7 @@ def generate_fusion_xpd(param_f=Union[str, Path]) -> None:
 
     # Sort wells: first blank wells, marker wells, remaining blank wells
     well_order = (
-        input_param.blank_wells[:1]
-        + list(marker_panel.well_name_dict.values())
-        + input_param.blank_wells[1:]
+        blank_wells[:1] + list(marker_panel.well_name_dict.values()) + blank_wells[1:]
     )
     base_info.wells = sorted(
         base_info.wells, key=lambda well: well_order.index(well.wellName)

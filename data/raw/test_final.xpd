@@ -1,0 +1,135 @@
+{
+  "formatVersion": "2",
+  "formatType": "Protein",
+  "name": "test_final",
+  "tissueType": "HumanFF",
+  "tissueInfo": "",
+  "resolution": 0.5,
+  "channels": [
+    {
+      "name": "DAPI",
+      "defaultExposure": 10
+    },
+    {
+      "name": "ATTO550",
+      "defaultExposure": 150
+    },
+    {
+      "name": "CY5",
+      "defaultExposure": 150
+    },
+    {
+      "name": "AF750",
+      "defaultExposure": 1
+    }
+  ],
+  "wells": [
+    {
+      "wellName": "H3",
+      "items": [
+        {
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 10,
+          "panel": "None"
+        },
+        {
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "None"
+        },
+        {
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "CY5",
+          "dye": "CY5",
+          "exposure": 150,
+          "panel": "None"
+        },
+        {
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 1,
+          "panel": "None"
+        }
+      ]
+    },
+    {
+      "wellName": "H4",
+      "items": [
+        {
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 10,
+          "panel": "None"
+        },
+        {
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "None"
+        },
+        {
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "CY5",
+          "dye": "CY5",
+          "exposure": 150,
+          "panel": "None"
+        },
+        {
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 1,
+          "panel": "None"
+        }
+      ]
+    }
+  ],
+  "unusedItems": []
+}
